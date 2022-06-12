@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+h1 {
+  color: white;
+}
+
+textarea {
+  padding: 30px 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+textarea:focus {
+  outline-color: blue;
+}
+span {
+  width: 100%;
+  max-width: 100px;
+  height: 40px;
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  background-color: coral;
+}
